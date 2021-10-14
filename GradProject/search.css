@@ -1,0 +1,246 @@
+* {
+    font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background: #fff;
+    font-family:"opens Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+/*for header*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 10px 30px;
+    background-color:  #44B4BC;
+    color: rgba(255, 255, 255, 0.384);
+    position: sticky;
+  } 
+  
+  /*for header*/
+  
+  menu>.active {
+    color:white;
+  }
+  
+  /*for header*/
+  
+  .menu>div>svg {
+    width: 16px;
+    height: 16px;
+    margin-left: 3px;
+    margin-bottom: -2px;
+  }
+  
+  
+  /*for header*/
+  
+  .menu :hover:not(.active) {
+    color: #0c7c44;
+  }
+  
+  
+  /*for header*/
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /*for header*/
+  
+  
+  .logo>img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /*for header*/
+  
+  
+  .logo>h4 {
+    margin-top: 16px;
+  }
+  
+  /*for header*/
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  /*for header*/
+  
+  .logo>h4 {
+    margin-top: 10px;
+  }
+  
+  
+  /*for header*/
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 10px 30px;
+    background-color: #8bd4af;
+    color: rgba(255, 255, 255, 0.384);
+    position: sticky;
+  }
+  
+  
+  /*for header*/
+  
+  .menu {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    cursor: pointer;
+  }
+  
+  
+  /*for header*/
+  
+  .menu>.active {
+    color: white;
+  }
+  
+  /*for header*/
+  
+  .menu>div>svg {
+    width: 16px;
+    height: 16px;
+    margin-left: 3px;
+    margin-bottom: -2px;
+  }
+  
+  
+  /*for header*/
+  
+  .menu :hover:not(.active) {
+    color: #0c7c44;
+  }
+  
+  /*for header*/
+  
+  .routing {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+
+
+/*for container*/
+
+.container{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    
+}
+
+/*for container*/
+
+.search-box{
+    padding: 10px 0px 0px;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+
+/*for container*/
+
+.container label{
+
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color:#8bd4af;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+/*for container*/
+
+.search{
+    width: 100%;
+    border:  3px solid #8bd4af ;
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+    padding: 7px;
+    height: 20px;
+    outline: none;
+    color: #8bd4af;
+
+}
+/*for container*/
+
+.search:focus{
+    color: black;
+    box-shadow: 0 0 5px #8bd4af;
+}
+
+/*for container*/
+
+.search-btn {
+    width: 43px;
+    height: 40px;
+    padding: 9px;
+    border: 1px solid #8bd4af;
+    background: #8bd4af;
+    color: #fff;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.routing {
+    text-decoration: none;
+    color: white;
+}
+
+/*for footer*/
+.footer {
+    background-color: #1E4640;
+    height: 200px;
+}
+
+  /*for footer*/
+
+.footer p {
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.page{
+    height: 95%;
+    margin: 0;
+}
