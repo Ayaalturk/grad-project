@@ -9,7 +9,7 @@ const patientSchema = mongoose.Schema({
     Address: {type: String, required: true},
     phone: {type: Number, required: true},
     speciallty: {type: String, required: true},
-    department: {type: String, required: true},
+    department: {type: String, required: false}, // add it to css/html man 
     dob: {type: String, required: true}
     
 });

@@ -42,7 +42,7 @@ class Database {
  
     getPatient(){
         return new Promise((resolve, reject) => {
-         patient.find({})
+         Patient.find({})
          .then(data => {
              resolve(data);
          })
